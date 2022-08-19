@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>201</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>218</red>
+      <green>218</green>
+      <blue>218</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>231</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="newGameButton">
+      <property name="toolTip">
+       <string>Ctrl + N</string>
+      </property>
+      <property name="text">
+       <string>New Game (Ctrl + N)</string>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+N</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pauseButton">
+      <property name="toolTip">
+       <string>Ctrl + P</string>
+      </property>
+      <property name="text">
+       <string>Pause</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="stopGameButton">
+      <property name="toolTip">
+       <string>Ctrl + S</string>
+      </property>
+      <property name="text">
+       <string>Stop (Ctrl + S)</string>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+S</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="aboutButton">
+      <property name="toolTip">
+       <string>About Me</string>
+      </property>
+      <property name="text">
+       <string>About</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="aboutQtButton">
+      <property name="toolTip">
+       <string>About Qt</string>
+      </property>
+      <property name="text">
+       <string>About Qt</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="programNameLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Qt Tetris v1.0</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>231</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="NoBrush">
+     <color alpha="255">
+      <red>218</red>
+      <green>218</green>
+      <blue>218</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="scoreLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Score: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="levelLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Level: 0</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>newGameButton</tabstop>
+  <tabstop>pauseButton</tabstop>
+  <tabstop>stopGameButton</tabstop>
+  <tabstop>aboutButton</tabstop>
+  <tabstop>graphicsView2</tabstop>
+  <tabstop>graphicsView</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
