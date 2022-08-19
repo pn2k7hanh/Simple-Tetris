@@ -1,7 +1,8 @@
 # Simple-Tetris
 Just Simple Tetris 
 
-Downloads:
+Downloads Links, oh... just 1 link:
+
 Windows: https://drive.google.com/file/d/1c54VEyiMH9c8_XgNYtUGuQLBud8CkMKI/view?usp=sharing
 
 Linux: not available
