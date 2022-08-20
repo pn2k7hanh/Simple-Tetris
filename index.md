@@ -1,6 +1,3 @@
-# Simple-Tetris
-Just Simple Tetris 
-
 Downloads Links, oh... just 1 link:
 
 Windows: [Google Drive](https://drive.google.com/file/d/1c54VEyiMH9c8_XgNYtUGuQLBud8CkMKI/view?usp=sharing)
